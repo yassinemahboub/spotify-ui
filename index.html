@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <aside>
+
+        <div class="logo-container">
+            <a href="#">
+                <img src="images/Spotify logo.png" alt="spotify logo">
+            </a>
+        </div>
+
+        <nav class="first-nav">
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                        <g clip-path="url(#clip0_1_36)">
+                          <path d="M12 15.1663C11.2044 15.1663 10.4413 15.5087 9.87868 16.1182C9.31607 16.7277 9 17.5544 9 18.4163V26.0278H15V18.4163C15 17.5544 14.6839 16.7277 14.1213 16.1182C13.5587 15.5087 12.7956 15.1663 12 15.1663Z" fill="white"/>
+                          <path d="M13.338 0.902533C12.9707 0.544422 12.4941 0.346268 12 0.346268C11.5059 0.346268 11.0293 0.544422 10.662 0.902533L0 11.2982V22.5649C0 23.4843 0.337142 24.366 0.937258 25.0162C1.53737 25.6663 2.35131 26.0315 3.2 26.0315H7V18.4168C7 16.9802 7.52678 15.6024 8.46447 14.5866C9.40215 13.5708 10.6739 13.0001 12 13.0001C13.3261 13.0001 14.5979 13.5708 15.5355 14.5866C16.4732 15.6024 17 16.9802 17 18.4168V26.0283H20.8C21.6487 26.0283 22.4626 25.663 23.0627 25.0129C23.6629 24.3628 24 23.481 24 22.5616V11.2949L13.338 0.902533Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_36">
+                            <rect width="24" height="26" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <g clip-path="url(#clip0_1_61)">
+                          <path d="M23.9998 22.5867L17.7378 16.3247C19.3644 14.3353 20.1642 11.7968 19.9716 9.23427C19.7791 6.67174 18.609 4.28124 16.7034 2.55723C14.7977 0.833223 12.3024 -0.092395 9.73342 -0.0281632C7.16447 0.0360686 4.71848 1.08524 2.9014 2.90233C1.08431 4.71942 0.0351378 7.1654 -0.029094 9.73435C-0.0933258 12.3033 0.832292 14.7987 2.5563 16.7043C4.28031 18.6099 6.67081 19.78 9.23334 19.9726C11.7959 20.1651 14.3344 19.3653 16.3238 17.7387L22.5858 24.0007L23.9998 22.5867ZM9.99978 18.0007C8.41753 18.0007 6.87081 17.5315 5.55522 16.6525C4.23963 15.7734 3.21425 14.524 2.60875 13.0622C2.00324 11.6004 1.84482 9.99184 2.1535 8.43999C2.46218 6.88814 3.22411 5.46268 4.34293 4.34386C5.46175 3.22504 6.88721 2.46311 8.43906 2.15443C9.99091 1.84575 11.5994 2.00418 13.0612 2.60968C14.5231 3.21518 15.7725 4.24056 16.6515 5.55615C17.5306 6.87174 17.9998 8.41846 17.9998 10.0007C17.9974 12.1217 17.1538 14.1552 15.654 15.6549C14.1542 17.1547 12.1208 17.9983 9.99978 18.0007Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_61">
+                            <rect width="24" height="24" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    <span>Search</span>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <rect y="1.52588e-05" width="1" height="23" fill="white"/>
+                        <rect x="7" y="1.52588e-05" width="1" height="23" fill="white"/>
+                        <rect x="12" y="0.400894" width="1" height="23.7219" transform="rotate(-23.634 12 0.400894)" fill="white"/>
+                      </svg>
+                    <span>Your Library</span>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="second-nav">
+            <ul>
+                <li>
+                    <div class="one"><i class="fa-sharp fa-regular fa-plus second-nav-icon"></i></div>
+                    <span>Create Playlist</span>
+                </li>
+                <li>
+                    <div class="two"><i class="fa-sharp fa-solid fa-heart second-nav-icon"></i></div>
+                    <span>Liked Songs</span>
+                </li>
+                <li>
+                    <div class="three"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M3.99215 14.4245C3.10059 13.5329 2.49344 12.397 2.24747 11.1604C2.00149 9.92377 2.12774 8.64197 2.61026 7.4771C3.09277 6.31222 3.90987 5.31659 4.95823 4.6161C6.00659 3.91561 7.23913 3.54172 8.49998 3.54172C9.76083 3.54172 10.9934 3.91561 12.0417 4.6161C13.0901 5.31659 13.9072 6.31222 14.3897 7.4771C14.8722 8.64197 14.9985 9.92377 14.7525 11.1604C14.5065 12.397 13.8994 13.5329 13.0078 14.4245L14.0094 15.4261C14.734 14.7034 15.3086 13.8446 15.7003 12.8991C16.092 11.9536 16.2929 10.9401 16.2916 9.91667C16.2916 5.61354 12.8031 2.125 8.49998 2.125C4.19686 2.125 0.708313 5.61354 0.708313 9.91667C0.708313 12.0686 1.58027 14.0165 2.99056 15.4261L3.99215 14.4245Z" fill="#159643"/>
+                        <path d="M12.0062 13.4229C12.6996 12.7295 13.1718 11.846 13.3631 10.8842C13.5543 9.92236 13.4561 8.92543 13.0808 8.01944C12.7055 7.11345 12.07 6.3391 11.2546 5.79429C10.4392 5.24948 9.4806 4.95869 8.49996 4.95869C7.51932 4.95869 6.56069 5.24948 5.74531 5.79429C4.92993 6.3391 4.29441 7.11345 3.91911 8.01944C3.54381 8.92543 3.44559 9.92236 3.63686 10.8842C3.82814 11.846 4.30033 12.7295 4.99371 13.4229L5.996 12.4213C5.50069 11.926 5.16337 11.295 5.02671 10.6079C4.89004 9.92093 4.96018 9.20881 5.22824 8.56165C5.49629 7.9145 5.95024 7.36136 6.53266 6.97219C7.11509 6.58303 7.79984 6.37531 8.50031 6.37531C9.20079 6.37531 9.88554 6.58303 10.468 6.97219C11.0504 7.36136 11.5043 7.9145 11.7724 8.56165C12.0405 9.20881 12.1106 9.92093 11.9739 10.6079C11.8373 11.295 11.4999 11.926 11.0046 12.4213L12.0062 13.4229Z" fill="#159643"/>
+                        <path d="M10.0024 11.419C10.2995 11.1218 10.5019 10.7432 10.5838 10.331C10.6658 9.9188 10.6237 9.49155 10.4628 9.10328C10.302 8.71501 10.0296 8.38315 9.68018 8.14967C9.33074 7.91619 8.91991 7.79156 8.49964 7.79156C8.07937 7.79156 7.66853 7.91619 7.31909 8.14967C6.96964 8.38315 6.69727 8.71501 6.53643 9.10328C6.37558 9.49155 6.33348 9.9188 6.41544 10.331C6.4974 10.7432 6.69976 11.1218 6.99691 11.419L7.9992 10.4175C7.90011 10.3184 7.83263 10.1922 7.80528 10.0548C7.77793 9.91737 7.79195 9.77494 7.84555 9.6455C7.89916 9.51605 7.98995 9.40541 8.10644 9.32757C8.22293 9.24973 8.35988 9.20818 8.49999 9.20818C8.64009 9.20818 8.77705 9.24973 8.89354 9.32757C9.01003 9.40541 9.10082 9.51605 9.15442 9.6455C9.20803 9.77494 9.22205 9.91737 9.1947 10.0548C9.16735 10.1922 9.09986 10.3184 9.00078 10.4175L10.0024 11.419Z" fill="#159643"/>
+                      </svg></div>
+                    <span>Your Episodes</span>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="playlist-links">
+            <div class="link-item"><a href="#">FAV</a></div>
+            <div class="link-item"><a href="#">Daily Mix 1</a></div>
+            <div class="link-item"><a href="#">Discover Weekly</a></div>
+            <div class="link-item"><a href="#">Malayalam</a></div>
+            <div class="link-item"><a href="#">Dance/Electronic Music</a></div>
+            <div class="link-item"><a href="#">EDM/Popular</a></div>
+        </div>
+
+        <div class="instal-app">
+            <i class="fa-regular fa-circle-down install-icon"></i>
+            <span>Install App</span>
+        </div>
+
+    </aside>
+
+    <main>
+
+    </main>
+
+    <footer class="music-player">
+
+        <div class="music-player__top">
+
+            <div class="left-container">
+                <div class="album-image">
+                    <img src="images/central-cee-cover.jpg" alt="">
+                </div>
+                <div class="music-name">
+                    <span>Sprinter</span>
+                    <span>Central Cee, Dave</span>
+                </div>
+                <i class="fa-sharp fa-solid fa-heart"></i>
+            </div>
+
+            <div class="middle-container">
+                <div class="player-top">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="player-bottom">
+                    <span>2:11</span>
+                    <div class="progress-bar"></div>
+                    <span>2:42</span>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <i class="fa-light fa-microphone-stand"></i>
+                <i class="fa-solid fa-list-music"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-regular fa-volume"></i>
+                <div class="volume-bar"></div>
+                <i class="fa-solid fa-arrow-up-right-and-arrow-down-left-from-center"></i>
+            </div>
+
+        </div>
+
+        <div class="music-player__bottom">
+            <i class="fa-regular fa-volume"></i>
+            <span>Listening on ASUS-ROG-G531GT</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
