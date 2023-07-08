@@ -25,6 +25,30 @@ li {
     list-style: none;
 }
 
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #7775 #5555;
+}
+
+html::-webkit-scrollbar {
+width: 0.6vw;
+}
+
+html::-webkit-scrollbar-thumb {
+background-color: #7775;
+transition: all .4s;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+    }
+
+html::-webkit-scrollbar-track {
+    background-color: #5555;
+}
+
+
+
 /* ASIDE */
 
 aside {
@@ -179,19 +203,21 @@ margin-top: 50px;
 main {
     display: flex;
     flex-direction: column;
+    padding-top: 100px;
     margin-left: 265px;
     padding-bottom: 200px;
 }
 
 header {
     background-color: #0E0E0E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 30px;
     position: fixed;
     top:0;
-    width: 100%;
+    width: calc(100vw - 265px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
 }
 
 .header-left {
@@ -240,6 +266,7 @@ input[type="text"] {
     background-color: #0A0A0A;
     padding: 7px 12px;
     border-radius: 37px;
+    
 }
 
 .monkey-img {
